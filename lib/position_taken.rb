@@ -5,5 +5,7 @@ if board[x] == " "
  return false
  elsif board[x] == ""
  return false
+ elsif board[x] == "X" || "O"
+ return true
 end
 end
