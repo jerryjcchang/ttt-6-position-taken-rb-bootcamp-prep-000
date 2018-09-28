@@ -8,6 +8,6 @@ if board[x] == " "
  elsif board[x] == "X" || "O"
  return true
  else board[x] == nil 
-   return false
+return false
 end
 end
