@@ -3,5 +3,7 @@
 def position_taken?(board, x)
 if board[x] == " "
  return false
+ elsif board[x] == ""
+ return false
 end
 end
